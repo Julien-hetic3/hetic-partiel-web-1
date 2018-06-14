@@ -904,6 +904,7 @@ textarea:focus,
 
 .btn,
 .btn.inverse:hover {
+	text-align: center;
 	color: #FFFFFF;
 	background-color: #CF9C67;
 	border-color: #CF9C67;
@@ -1306,6 +1307,7 @@ table a,
 	.one_quarter,
 	.two_quarter,
 	.three_quarter {
+		text-align: center;
 		display: block;
 		float: none;
 		width: auto;
