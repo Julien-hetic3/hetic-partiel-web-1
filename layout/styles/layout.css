@@ -38,7 +38,8 @@
 
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
-#header {}
+#header {
+}
 
 #header #logo {
 	margin: 30px 0 0 0;
@@ -923,6 +924,43 @@ textarea:focus,
 }
 
 
+.submit,
+.submit.inverse:hover {
+	color: #FFFFFF;
+	background-color: #CF9C67;
+	border-color: #CF9C67;
+}
+
+.submit:hover,
+.submit.inverse {
+	color: inherit;
+	background-color: transparent;
+	border-color: inherit;
+}
+
+.admin:hover {
+	color: cyan;
+	transition: 300ms;
+}
+
+.name:hover {
+		color: cyan;
+		transition: 300ms;
+}
+
+.read:hover {
+	color: cyan;
+	transition: 300ms
+}
+
+.linkEnd:hover {
+	color: cyan;
+	transition: 300ms
+}
+
+
+
+
 /* Rows */
 
 .row0,
@@ -1280,7 +1318,7 @@ table a,
 	}
 	#pageintro article {
 		max-width: none;
-		text-align: left;
+		text-align: center;
 	}
 	#pageintro .heading {
 		font-size: 2rem;
@@ -1327,4 +1365,3 @@ table a,
 		font-size: 1.6rem;
 	}
 }
-
