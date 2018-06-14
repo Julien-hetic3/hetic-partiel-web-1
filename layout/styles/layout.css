@@ -898,6 +898,10 @@ textarea:focus,
 	background-color: rgba(0, 0, 0, .8);
 }
 
+.overlay.light {
+	background-image:url('images/demo/backgrounds/homeBackground.jpg');
+}
+
 .overlay.light::after {
 	background-color: rgba(0, 0, 0, .55);
 }
